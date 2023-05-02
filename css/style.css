@@ -10,8 +10,7 @@ html {
 }
 
 .font-f1 {
-    font-family: cursive;
-    /* font-family: Arial, Helvetica, sans-serif, */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -476,7 +475,7 @@ form:hover .form-button button {
     z-index: 99;
     border: none;
     color: #fff;
-    background: #2da6aa;
+    background: #b18127;
     padding: 10px;
     border-radius: 10px;
 }
@@ -485,13 +484,13 @@ form:hover .form-button button {
     background: #606060;
 }
 
-.real-title{
+.real-title {
     font-size: 28px;
 }
 
 .pad {
     padding: 5px;
-  }
+}
 
 /**Footer**/
 
@@ -530,13 +529,14 @@ form:hover .form-button button {
     .footer-div {
         margin: 30px 0;
     }
-    .real-title{
+
+    .real-title {
         font-size: 22px;
     }
 
     .pad {
         padding: 6px;
-      }
+    }
 }
 
 /* media queries */
