@@ -9,10 +9,15 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+.font-f1 {
+    font-family: cursive;
+    /* font-family: Arial, Helvetica, sans-serif, */
+}
+
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('../images/bg1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bg_tax.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
@@ -28,9 +33,9 @@ html {
     bottom: 0%;
     left: 0;
     right: 0;
-    opacity: .3;
+    opacity: .4;
     z-index: -1;
-    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    background: linear-gradient(to right, #1e5799 0%, #3f8b83 0%, #3f8b83 90%);
 }
 
 a {
@@ -354,7 +359,7 @@ i {
     height: 40px;
 
     border-radius: 50%;
-    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #358296 100%);
     color: white;
     position: absolute;
     top: 120%;
@@ -396,7 +401,7 @@ i {
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(330deg, #16c9f6 55%, #fff 0%);
+    background: linear-gradient(330deg, #278da7 55%, #fff 0%);
     z-index: -1;
 }
 
@@ -416,7 +421,7 @@ i {
 
 form:hover .form-button button {
     background: #fff;
-    color: #50d1c5;
+    color: #365c58;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -433,8 +438,9 @@ form:hover .form-button button {
 .footersection {
     width: 100%;
     height: auto;
-    padding: 70px 0 20px 0;
-    background: #00abff;
+    padding: 30px 0 20px 0;
+    /* background: #52a79e; */
+    background: #4e8876;
     position: relative;
 
 }
@@ -470,7 +476,7 @@ form:hover .form-button button {
     z-index: 99;
     border: none;
     color: #fff;
-    background: #00abff;
+    background: #2da6aa;
     padding: 10px;
     border-radius: 10px;
 }
@@ -478,6 +484,14 @@ form:hover .form-button button {
 #myBtn:hover {
     background: #606060;
 }
+
+.real-title{
+    font-size: 28px;
+}
+
+.pad {
+    padding: 5px;
+  }
 
 /**Footer**/
 
@@ -516,6 +530,13 @@ form:hover .form-button button {
     .footer-div {
         margin: 30px 0;
     }
+    .real-title{
+        font-size: 22px;
+    }
+
+    .pad {
+        padding: 6px;
+      }
 }
 
 /* media queries */
